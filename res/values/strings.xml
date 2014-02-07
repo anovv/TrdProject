@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BTC-e Client</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pref_refresh">Widget refresh time</string>
+    <string name="pref_refresh_summary">Set widget refresh time</string>
+
+    <string-array name="pairs">
+        <item>BTC/USD</item>
+        <item>BTC/RUR</item>
+        <item>BTC/EUR</item>
+    </string-array>
+    <string-array name="actions">
+        <item>Graph</item>
+        <item>Buy</item>
+        <item>Sell</item>
+    </string-array>
+
+    <string name="title_activity_test">TestActivity</string>
+
+    <color name="back">#3d4140</color>
+    <color name="purple_light">#ffffff</color>
+    <color name="purple_dark">#353838</color>
+
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Menu 2</string>
+    <string name="menu_3">Menu 3</string>
+    <string name="menu_4">Menu 4</string>
+    <string name="title_activity_buy">BuyActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_sell">SellActivity</string>
+    <string name="title_activity_open_orders">OpenOrdersActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_trade_history">TradeHistoryActivity</string>
+    <string name="title_activity_key">KeyActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_splash">BTC-e Client</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+
+</resources>

@@ -1,0 +1,132 @@
+	
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="@color/White" >
+	
+	<TextView
+            android:id="@+id/emptyList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No open orders"
+            android:textSize="20dip" />
+	
+    
+    <ListView
+	    android:id="@+id/open_orders"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_above="@+id/open_orders_footer"
+	    android:layout_below="@+id/open_orders_header" />
+    
+     
+    
+    <TextView
+	    android:id="@+id/open_orders_footer"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:gravity="center"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"/>	
+	
+    
+    <LinearLayout
+		android:id="@+id/open_orders_header"    
+		android:layout_height="wrap_content"    
+		android:layout_width="match_parent"    
+		android:gravity="center"
+    	android:layout_alignParentTop="true"
+		android:orientation="vertical"
+		android:layout_centerHorizontal="true">	 
+		
+			
+		<LinearLayout
+		    android:layout_height="wrap_content"    
+			android:layout_width="match_parent"			
+			android:orientation="horizontal">
+			
+			<TextView 
+			    android:layout_height="wrap_content"
+			    android:layout_width="match_parent"
+				android:gravity="left"
+				android:textSize="14dip"
+				android:padding = "10dip"
+				android:text="Open Orders"/>
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">			
+		    
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/Black"/>
+		    
+			<LinearLayout
+			    android:layout_height="wrap_content"    
+				android:layout_width="match_parent"			
+				android:orientation="horizontal">
+				
+			    <TextView 
+				    android:layout_height="wrap_content"
+				    android:layout_width="0dip"
+				    android:layout_weight="1.5"
+					android:gravity="center"
+					android:textSize="12dip"
+					android:text="Type"/>
+					    
+				<View
+					android:layout_width="1dp"
+				    android:layout_height="match_parent"
+				    android:background="@color/Black"/>
+				
+			    
+				<TextView 
+				    android:layout_height="wrap_content"
+				    android:layout_width="0dip"
+				    android:layout_weight="2"
+					android:gravity="center"
+					android:textSize="12dip"
+					android:text="Price"/>
+					    
+				<View
+					android:layout_width="1dp"
+				    android:layout_height="match_parent"
+				    android:background="@color/Black"/>
+				<TextView 
+				    android:id="@+id/open_orders_header_cur1"			    
+				    android:layout_height="wrap_content"
+				    android:layout_width="0dip"
+				    android:layout_weight="3"
+					android:gravity="center"
+					android:textSize="12dip"
+					android:text="cur1"/>     
+				<View
+					android:layout_width="1dp"
+				   	android:layout_height="match_parent"
+				   	android:background="@color/Black"/>
+				<TextView 
+				    android:id="@+id/open_orders_header_cur2"			    
+				    android:layout_height="wrap_content"
+				    android:layout_width="0dip"
+					android:layout_weight="3"
+					android:gravity="center"
+					android:textSize="12dip"
+					android:text="cur2"/>				 
+			</LinearLayout>
+			
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/Black"/>
+				
+		</LinearLayout>
+	</LinearLayout>
+	
+</RelativeLayout>

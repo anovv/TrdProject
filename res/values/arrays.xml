@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="refreshTime">
+        <item name="1">1 second</item>
+        <item name="2">10 seconds</item>
+        <item name="3">30 seconds</item>
+        <item name="4">1 minute</item>
+        <item name="5">2 minutes</item>
+        <item name="6">5 minutes</item>
+        <item name="7">10 minutes</item>
+        <item name="8">20 minutes</item>
+        <item name="9">30 minutes</item>
+        <item name="10">1 hour</item>
+    </string-array>
+    <string-array name="refreshTimeValues">
+        <item name="1">1000</item>
+        <item name="2">10000</item>
+        <item name="3">30000</item>
+        <item name="4">60000</item>
+        <item name="5">120000</item>
+        <item name="6">300000</item>
+        <item name="7">600000</item>
+        <item name="8">1200000</item>
+        <item name="9">1800000</item>
+        <item name="10">3600000</item>
+    </string-array>    
+</resources>

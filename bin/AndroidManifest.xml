@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.btceclient.trdproject"
+    android:versionCode="5"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- <receiver
+            android:name="com.btceclient.trdproject.Widget"
+            android:icon="@drawable/ic_launcher"
+            android:label="BTC-e Client Widget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_metadata" >
+            </meta-data>
+        </receiver> -->
+
+        <activity
+            android:name="com.btceclient.trdproject.GraphActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.BuyActivity"
+            android:label="@string/title_activity_buy" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.BaseActivity"
+            android:label="@string/title_activity_base" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.SellActivity"
+            android:label="@string/title_activity_sell" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.OpenOrdersActivity"
+            android:label="@string/title_activity_open_orders" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.TradeHistoryActivity"
+            android:label="@string/title_activity_trade_history" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.KeyActivity"
+            android:label="@string/title_activity_key" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- <service android:name="com.btceclient.trdproject.UpdaterService" >
+        </service>
+
+        <activity
+            android:name="com.btceclient.trdproject.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/PreferencesTheme" >
+        </activity>
+        <activity
+            android:name="com.btceclient.trdproject.ChatActivity"
+            android:label="@string/title_activity_chat" >            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+    </application>
+
+</manifest>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	 xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="match_parent"
+	 android:layout_height="match_parent"
+	 android:background="@drawable/background_widget"
+	 android:orientation="horizontal"
+	 android:padding="2dip">
+	 <LinearLayout
+	    android:layout_weight="1"
+		android:layout_height="match_parent"
+	    android:layout_width="match_parent">	
+		<TextView
+			android:id="@+id/widget_tv"
+		    android:layout_width="match_parent"
+		 	android:layout_height="match_parent"
+			android:gravity="center"             
+			android:text="..."
+			android:fontFamily="sans-serif-light"
+			android:textColor="@color/LightGray"
+			android:textSize="42dip">
+		</TextView>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_weight="2"
+		android:layout_height="match_parent"
+	    android:layout_width="match_parent"
+		android:gravity="center"            
+		android:orientation="horizontal">
+		<LinearLayout
+		    android:layout_weight="1"
+			android:layout_height="match_parent"
+		    android:layout_width="match_parent"      
+			android:orientation="vertical">
+		    
+			<TextView
+			    android:id="@+id/cur1_widget"
+		    	android:layout_weight="1"            
+		 		android:layout_height="match_parent"
+		   		android:layout_width="match_parent"
+				android:gravity="center"
+				android:fontFamily="sans-serif-light"
+				android:textSize="20dip"
+				android:textColor="@color/LightGray">
+		    </TextView>
+			<TextView
+			    android:id="@+id/cur2_widget"
+		    	android:layout_weight="1"        
+		 		android:layout_height="match_parent" 
+		    	android:layout_width="match_parent"   
+				android:gravity="center"
+				android:textSize="20dip"
+				android:fontFamily="sans-serif-light"
+				android:textColor="@color/LightGray">
+		    </TextView>				    
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_weight="2"
+			android:layout_height="match_parent"
+		    android:layout_width="match_parent"      
+			android:orientation="vertical">
+		    <ImageButton
+		        android:id="@+id/widget_up"
+		        android:layout_weight="1"        
+		 		android:layout_height="match_parent" 
+		    	android:layout_width="match_parent"
+		    	android:src="@drawable/ic_up"/>
+		    
+		    <ImageButton
+		        android:id="@+id/widget_down"
+		        android:layout_weight="1"        
+		 		android:layout_height="match_parent" 
+		    	android:layout_width="match_parent"
+		    	android:src="@drawable/ic_down"/>
+		</LinearLayout> 
+		
+	
+	</LinearLayout>	
+</LinearLayout>

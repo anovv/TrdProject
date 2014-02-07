@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/rights"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16dip"
+	        android:padding="8dip"
+	        android:text="Api Key Rights:" />   
+	        
+	    
+	    <TextView
+	        android:id="@+id/trans"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16dip"
+	        android:padding="8dip"
+	        android:text="Transacion Count:" />
+	    
+	    
+	    <TextView
+	        android:id="@+id/server_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16dip"
+	        android:padding="8dip"
+	        android:text="Server Time:" />
+	    
+	    
+	    <TextView
+	        android:id="@+id/op_orders"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16dip"
+	        android:padding="8dip"
+	        android:text="Open Orders:"/>	    
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16dip"
+	        android:padding="8dip"
+	        android:text="Funds:"/>
+	    
+	    
+	    <TextView
+	        android:id="@+id/funds"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="14dip"
+	        android:padding="2dip"
+	        android:layout_marginLeft="6dip"
+	        android:text=""/>
+	    
+	    
+	   	</LinearLayout>
+
+</ScrollView>

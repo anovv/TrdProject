@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >       
+    
+    <item
+        android:id="@+id/info_item"
+        android:showAsAction="always"
+        android:title="info"
+		android:background="@color/White">
+        <menu>
+        	<item
+            	android:id="@+id/menu_btc_usd"
+            	android:title="BTC/USD" />
+        	<item
+            	android:id="@+id/menu_btc_rur"
+            	android:title="BTC/RUR" />
+        	<item
+            	android:id="@+id/menu_btc_eur"
+            	android:title="BTC/EUR" />
+        	<item
+            	android:id="@+id/menu_ltc_btc"
+            	android:title="LTC/BTC" />
+        	<item
+            	android:id="@+id/menu_ltc_usd"
+            	android:title="LTC/USD" />
+        	<item
+            	android:id="@+id/menu_ltc_rur"
+            	android:title="LTC/RUR" />
+        	<item
+            	android:id="@+id/menu_ltc_eur"
+            	android:title="LTC/EUR" />
+        	<item
+            	android:id="@+id/menu_nmc_btc"
+            	android:title="NMC/BTC" />
+        	<item
+            	android:id="@+id/menu_nmc_usd"
+            	android:title="NMC/USD" />
+        	<item
+            	android:id="@+id/menu_nvc_btc"
+            	android:title="NVC/BTC" />
+        	<item
+            	android:id="@+id/menu_nvc_usd"
+            	android:title="NVC/USD" />
+        	<item
+            	android:id="@+id/menu_usd_rur"
+            	android:title="USD/RUR" />
+        	<item
+            	android:id="@+id/menu_eur_usd"
+            	android:title="EUR/USD" />
+        	<item
+            	android:id="@+id/menu_trc_btc"
+            	android:title="TRC/BTC" />
+        	<item
+            	android:id="@+id/menu_ppc_btc"
+            	android:title="PPC/BTC" />
+        	<item
+            	android:id="@+id/menu_ppc_usd"
+            	android:title="PPC/USD" />
+        	<item
+            	android:id="@+id/menu_ftc_btc"
+            	android:title="FTC/BTC" />
+        	<item
+            	android:id="@+id/menu_xpm_btc"
+            	android:title="XPM/BTC" />
+    	</menu>
+    </item>
+    
+    <item
+        android:id="@+id/refresh_button"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_refresh"
+        android:title="refresh"/>      
+    
+</menu>
